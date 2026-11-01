@@ -4,10 +4,10 @@ This repository contains agent skills authored by Vercel Marketplace partners
 and mirrored by Vercel. Each mirrored skill retains its original author's
 copyright and license.
 
-skills/neon, skills/neon-postgres
+skills/neon-postgres
   © Neon (neondatabase), Apache License 2.0 (see LICENSE).
   Source:  https://github.com/neondatabase/agent-skills
-  Vendored at commit: 2708d0f8da58
+  Vendored at commit: b47b8830246febf4b78cbf7b0d5f17b2101e1072 (2026-05-21)
   Unmodified from the vendored commit.
 
 Vercel maintains this mirror so the version served to the Vercel Marketplace
