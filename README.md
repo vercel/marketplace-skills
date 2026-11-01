@@ -16,16 +16,24 @@ a reviewed, pinned copy that upstream cannot change without a PR to this repo.
 
 | Skill | Author | License | Source | Pin |
 | --- | --- | --- | --- | --- |
-| `skills/neon` | Neon | Apache-2.0 | [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills) | `2708d0f8da58` |
-| `skills/neon-postgres` | Neon | Apache-2.0 | [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills) | `2708d0f8da58` |
+| `skills/neon-postgres` | Neon | Apache-2.0 | [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills) | `b47b8830` (2026-05-21) |
 
 See [`NOTICE`](./NOTICE) for attribution. Skill content is unmodified from the
 pinned commit.
 
-> The Neon pin above is the database-focused version prior to the
-> "Neon as the backend / host your frontend elsewhere" repositioning. Confirm it
-> matches the version reviewed at the partner's Marketplace onboarding before
-> relying on it in production.
+### Pin rationale
+
+`neon-postgres` is pinned to **2026-05-21**, the last version before Neon's
+June 2026 expansion of its skills into a full backend platform (Functions,
+Object Storage, AI Gateway, Auth), which also added routing that treats Vercel
+as a frontend/CDN. This is the database-era skill from roughly six months ago.
+
+The `neon` platform-overview skill is **intentionally not mirrored**: it was
+created in June 2026 specifically as that backend-platform pitch and has no
+earlier, database-only form.
+
+> ⚠️ The exact pin date is provisional — to be confirmed against the version
+> Vercel reviewed at Neon's Marketplace onboarding.
 
 ## Updating
 
